@@ -1,0 +1,246 @@
+html{height:100%}
+body {
+ margin: 0%;
+ padding: 0%;
+ background-color: #efefef;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Intro and begining */
+.top-image {
+    background-image: url("./assets/future.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.intro{
+  font-weight:bold;
+  color: black;
+  border-bottom: 0;
+  text-align: left;
+  padding-top: 420px;
+  padding-bottom: 350px;
+  padding-left: 68%;
+  font-size: 37px;
+  text-shadow: 1.5px 1.5px 3px #b1adad;
+  display:inline-block;
+  /* box-shadow: 0 3px 5px 0 rgba(0,0,0,0.1) */
+}
+
+.nav {
+    position: fixed;
+    background-color: #d1cfcf1f; 
+    height: 80px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    z-index: 99999;
+    transition:  all ease-in-out .5s;
+    min-width: 100%;
+}
+
+.nav h1 {
+    float: left;
+    font-weight:bold;
+    display: block;
+    color:#d67533;
+    text-align: left !important;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 40px;
+    text-shadow: 1px 1px 4px black;
+    transition:  all ease-in-out .5s;
+}
+
+.nav h1:hover {
+    color: #f2f2f2 ;
+}
+/* content */
+.content {
+  height: 600px;  
+  margin-top: 20px;
+  padding: 0 auto;
+}
+.contentHeader {
+  text-align: center;
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bill {
+transition: .3s;
+}
+
+.bill:hover {
+    transform: scale(1.03);
+}
+
+.billtext {
+ text-align: center;
+ font-size: 20px;
+ color:#2b2b2a;
+ margin-left: 185px;
+ margin-bottom: 10px;
+ margin-top: 45px;
+ font-weight: bold;
+}
+
+.bill1 {
+  /* background-color: #f1e3f9; */
+  background-color: #f7d291;
+  height: 31%;
+  width: 300px;
+  margin-left: 150px;
+  object-fit: contain;
+  margin-top: 10px;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.bill2 {
+    /* background-color: #f1e3f9; */
+    background-color: #f7d291;
+    height: 31%;
+    width: 300px;
+    margin-left: 150px;
+    object-fit: contain;
+    margin-top: 30px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+    /* background-color: #d67533; */
+}
+  
+.more {
+    transition: .3s;
+}
+    
+.more:hover {
+        transform: scale(1.03);
+}
+
+.moretext {
+    color: #2b2b2a;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 45px;
+    margin-left: -215px;
+    font-weight: bold;
+
+}
+.more1 {
+    background-color: #f7d291;
+    height: 31%;
+    width: 300px;
+    margin-left: -50px;
+    object-fit: contain;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.more2 {
+    background-color: #f7d291;
+    height: 31%;
+    width: 300px;
+    margin-left: -50px;
+    object-fit: contain;
+    margin-top: 30px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.motext {
+ text-align: center;
+ font-size: 30px;
+ color:#d67533;
+ margin-bottom: 15px;
+ margin-top: -5px;
+ margin-left: -10px;
+ font-weight: bold;
+}
+.mobile {
+    margin-top: 8px;
+    width: 65%;
+    height: 70%;
+    transition: .3s;
+}
+
+.mobile:hover {
+    transform: scale(1.05);
+}
+
+.moimg {
+    background-color: #f7d291;
+    margin-left: -4px;
+    /* box-shadow: 2px 2px 2px 2px #f7d291; */
+
+}
+/* myself */
+.mySelf {
+ height: 600px;
+ width: 100%;
+ padding-top: -50px;
+ display: flex;
+ flex-direction: row;
+ background-color: #ffffff;
+
+}
+
+.moi {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.moi h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ #note {
+     width: 330px;
+     font-size: 18px;
+     text-align: center
+     /* align-self: center; */
+ }
+.myPic {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.myPic > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 100%;
+}
+/* footer */
+.footer {
+  padding: 15px 0px;
+  background-color: #d1cfcf;
+  text-align: center;
+  border-top: 1px solid #efefef;
+  color: #d67533;  
+  letter-spacing: 0.1em;
+  line-height:1.5;
+  bottom: 0px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  /* margin-top:80px; */
+}
+
+.footer p {
+    padding-top: 20px;
+}
