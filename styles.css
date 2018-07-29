@@ -175,6 +175,8 @@ transition: .3s;
     width: 65%;
     height: 70%;
     transition: .3s;
+    cursor: pointer;
+
 }
 
 .mobile:hover {
